@@ -15,7 +15,7 @@ public class Stack<T> {
     
     // Método para insertar
     public void push(T data) {
-        Node<T> newNode = new Node<T>(data);
+        Node<T> newNode = new Node<>(data);
         newNode.setNext(top);
         top = newNode;
         size++;
